@@ -56,6 +56,17 @@ p {
   line-height: 30px;
 }
 
+div > div > div > span {
+  color: #ffffff;
+}
+
+.block > p{
+  font-size: 20px;
+  color: #ffffff;
+  display: inline;
+}
+
+
 .navbar-toggle .icon-bar {
   background: #223a66;
 }
@@ -320,6 +331,8 @@ a:focus {
   outline: none;
 }
 
+
+
 @media (max-width: 480px) {
   h2, .h2 {
     font-size: 1.3rem;
@@ -561,19 +574,20 @@ a:focus {
     font-size: 56px;
     line-height: 70px;
   }
+  /*.banner {
+    background: #fff !important;
+  }*/
+}
+/*@media (max-width: 992px) {
   .banner {
     background: #fff !important;
   }
-}
-@media (max-width: 992px) {
-  .banner {
-    background: #fff !important;
-  }
-}
+}*/
 
 .about-img img {
   border-radius: 5px;
   box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+
 }
 
 .award-img {
@@ -640,10 +654,16 @@ a:focus {
   color: #223a66;
 }
 .feature-item h4 {
-  color: #223a66;
+  color: #183772;
 }
 .feature-item p {
   font-size: 14px;
+}
+
+#info-general > div > p + span {
+  color:#1a2f57;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .feature-section.border-top {
@@ -818,7 +838,7 @@ a:focus {
   }
 }
 .cta {
-  background: url("../images/bg/bg-4.jpg") no-repeat 50% 50%;
+  background: url("../images/bg/bg-4.1.jpg") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
 }
