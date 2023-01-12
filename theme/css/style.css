@@ -60,8 +60,8 @@ div > div > div > span {
   color: #ffffff;
 }
 
-.block > p{
-  font-size: 20px;
+.block > span + h1 + div + div > h2{
+  font-size: 40px;
   color: #ffffff;
   display: inline;
 }
@@ -72,7 +72,7 @@ div > div > div > span {
 }
 
 .img-fluid{
-  width: 550px;
+  width: 80px;
   border-radius: 15px;
 }
 
