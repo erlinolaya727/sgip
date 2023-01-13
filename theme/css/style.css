@@ -72,9 +72,10 @@ div > div > div > span {
 }
 
 .img-fluid{
-  width: 80px;
-  border-radius: 15px;
+  width: 100px;
+  border-radius: 5px;
 }
+
 
 input[type=email], input[type=password], input[type=text], input[type=tel] {
   box-shadow: none;
@@ -596,7 +597,6 @@ a:focus {
   align-items: center;
   display: flex;
   justify-content: center;
-  background: #eff0f3;
 }
 
 .appoinment-content {
@@ -609,9 +609,10 @@ a:focus {
   position: absolute;
   content: "";
   right: 10px;
-  bottom: 20px;
+  bottom: 10px;
   background: #223a66;
-  padding: 48px;
+  padding: 20px;
+  border-radius:15px;
 }
 .appoinment-content .emergency h2 {
   color: #fff;
