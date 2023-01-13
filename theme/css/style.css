@@ -494,7 +494,7 @@ a:focus {
 }
 
 .bg-1 {
-  background: url("../images/bg/22.jpg") no-repeat 50% 50%;
+  background: url("../images/bg/fondo-nosotros.jpeg") no-repeat 50% 10%;
   background-size: cover;
   position: relative;
 }
@@ -855,6 +855,9 @@ a:focus {
   position: relative;
 }
 
+.listfootersqure{
+    list-style-type: square;
+}
 .testimonial {
   position: relative;
 }
@@ -873,7 +876,7 @@ a:focus {
 
 .testimonial-block {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 .testimonial-block p {
   background: #fff;
