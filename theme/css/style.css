@@ -60,6 +60,10 @@ div > div > div > span {
   color: #ffffff;
 }
 
+.galeria {
+  height: 500px;
+  border-radius: 15px
+}
 .block > span + h1 + div + div > h2{
   font-size: 40px;
   color: #ffffff;
