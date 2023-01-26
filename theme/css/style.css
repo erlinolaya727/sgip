@@ -527,8 +527,8 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/bg/slider-bg-1.0.jpg") no-repeat;
-  background-size: cover;
+  background: url("../images/bg/Slide1.PNG") no-repeat;
+  background-size: 100%;
   min-height: 550px;
 }
 .banner .block {
