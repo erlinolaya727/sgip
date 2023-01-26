@@ -879,7 +879,9 @@ a:focus {
   background: url("../images/bg/cta-bg.png") no-repeat;
   background-position: center center;
 }
-
+.cta-services{
+  background:rgba(235, 236, 251, 0.7)
+}
 .cta-page {
   background: url("../images/bg/banner.jpg") no-repeat;
   background-size: cover;
