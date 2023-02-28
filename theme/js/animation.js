@@ -17,12 +17,12 @@ $(document).ready(function () {
 
     $(".animated-text").typed({
         strings: [
-            "Contro Sólidos",
+            "Contro de Sólidos",
             "Tratamiento de Aguas",
             "Deshidratación por consolidación en Geocontenedores",
             "Calidad"
         ],
-        typeSpeed: 20,
+        typeSpeed: 90,
         loop: true,
     });
 
@@ -34,7 +34,6 @@ $(document).ready(function () {
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
-
         fixedContentPos: false
     });
 
